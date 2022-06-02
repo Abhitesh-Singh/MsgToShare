@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import com.example.msgshareapp.Constants
 import com.example.msgshareapp.R
 import com.example.msgshareapp.showToast
 import kotlinx.android.synthetic.main.activity_main.*
@@ -28,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             //Toast.makeText(this, message,Toast.LENGTH_SHORT).show()
 
             val intent = Intent(this, SecondActivity::class.java)
-            intent.putExtra("user_message", message)
+            intent.putExtra(Constants.USER_MSG_KEY, message)
             startActivity(intent)
         }
 
