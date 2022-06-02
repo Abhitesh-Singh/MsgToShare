@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MsgShareApp">
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +20,11 @@
         </activity>
 
         <activity
-            android:name=".SecondActivity">
+            android:name=".activities.SecondActivity">
+        </activity>
+
+        <activity
+            android:name=".activities.HobbiesActivity">
         </activity>
     </application>
 
