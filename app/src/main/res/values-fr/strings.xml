@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MsgShareApp</string>
+
+    <string name="btn_show_toast">Afficher le toast</string>
+    <string name="name">Entrez votre nom</string>
+    <string name="btn_send_to_next_activity">ENVOYER LES DONNÉES À LACTIVITÉ SUIVANTE</string>
+    <string name="btn_share_to_other_apps">PARTAGER AVEC DAUTRES APPLICATIONS</string>
+    <string name="btn_recycler_view_demo">RECYCLEUR VOIR LA DÉMO</string>
+</resources>

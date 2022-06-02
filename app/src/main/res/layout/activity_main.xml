@@ -17,7 +17,7 @@
         android:layout_marginStart="139dp"
         android:layout_marginTop="63dp"
         android:layout_marginEnd="138dp"
-        android:text="Show Toast"
+        android:text="@string/btn_show_toast"
         tools:layout_editor_absoluteX="156dp"
         tools:layout_editor_absoluteY="75dp" />
 
@@ -30,7 +30,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="290dp"
         android:ems="10"
-        android:hint="Enter your Name" />
+        android:hint="@string/name" />
 
     <Button
         android:id="@+id/btnSendMsgToNextActivity"
@@ -40,7 +40,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="273dp"
-        android:text="SEND DATA TO NEXT ACTIVITY" />
+        android:text="@string/btn_send_to_next_activity" />
 
     <Button
         android:id="@+id/btnShareToOtherApps"
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="206dp"
-        android:text="Share to other apps" />
+        android:text="@string/btn_share_to_other_apps" />
 
     <Button
         android:id="@+id/btnRecyclerViewDemo"
@@ -58,7 +58,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="91dp"
         android:layout_marginBottom="140dp"
-        android:text="Recycler View Demo" />
+        android:text="@string/btn_recycler_view_demo" />
 
 
 </RelativeLayout>
