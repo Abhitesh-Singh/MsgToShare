@@ -7,4 +7,5 @@
     <string name="btn_send_to_next_activity">ENVOYER LES DONNÉES À LACTIVITÉ SUIVANTE</string>
     <string name="btn_share_to_other_apps">PARTAGER AVEC DAUTRES APPLICATIONS</string>
     <string name="btn_recycler_view_demo">RECYCLEUR VOIR LA DÉMO</string>
+    <string name="btn_clicked">Le bouton a été cliqué !</string>
 </resources>

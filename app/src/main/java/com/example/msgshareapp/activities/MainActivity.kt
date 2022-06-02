@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             Log.i("MainActivity","Button was Clicked!")
 
             //Toast.makeText(this,"Button was Clicked!",Toast.LENGTH_SHORT).show()
-            showToast("Button was Clicked!", Toast.LENGTH_LONG) //by default it is short in time by extension
+            showToast(resources.getString(R.string.btn_clicked), Toast.LENGTH_LONG) //by default it is short in time by extension
             //The time length was of SHORT type and use ".show()" to print on screen
         }
 

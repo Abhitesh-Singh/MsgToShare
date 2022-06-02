@@ -6,4 +6,5 @@
     <string name="btn_send_to_next_activity">SEND DATA TO NEXT ACTIVITY</string>
     <string name="btn_share_to_other_apps">SHARE TO OTHER APPS</string>
     <string name="btn_recycler_view_demo">RECYCLER VIEW DEMO</string>
+    <string name="btn_clicked">Button was Clicked!</string>
 </resources>
